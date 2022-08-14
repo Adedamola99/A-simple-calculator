@@ -1,0 +1,125 @@
+.big-div {
+    width: 420px;
+    height: fit-content;
+    margin: auto;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 20px grey;
+    border-radius: 7px;
+}
+
+.cont {
+    background-color: transparent;
+    border: 0;
+    height: 10vh;
+    width: 100%;
+    outline: none;
+    font-size: 50px;
+    direction: ltr;
+    text-align: end;
+}
+
+.div-flex {
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#number {
+    width: 100px;
+    height: 100px;
+    flex-wrap: wrap;
+}
+
+#number {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    border: 2px solid whitesmoke;
+    background-color: white;
+}
+
+#equ {
+    background-color: lightskyblue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    border: 2px solid whitesmoke;
+    width: 100px;
+    height: 100px;
+}
+
+#operator {
+    font-size: 30px;
+    /* border: 0; */
+    border: 2px solid whitesmoke;
+    width: 100px;
+    height: 100px;
+}
+
+#game-gues {
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 20px grey;
+    border-radius: 7px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.h1guess {
+    color: green;
+}
+
+.oj-but {
+    background-color: blue;
+    outline: none;
+    border: 4px solid blue;
+    border-radius: 60px;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.on {
+    /* background-color: blue; */
+    /* opacity: 0.5; */
+    /* border: 5px solid blue; */
+}
+
+.off {
+    background-color: blue;
+    opacity: 0.5;
+    border: 5px solid blue;
+}
+
+#operatoron,
+#operatoroff {
+    font-size: 30px;
+    /* border: 0; */
+    /* border: 2px solid whitesmoke; */
+    width: 100px;
+    height: 100px;
+}
+
+.trafficLight {
+    background-color: black;
+    width: 50px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+    border-radius: 10px;
+}
+
+.trafficLight span {
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    background-color: gray;
+}

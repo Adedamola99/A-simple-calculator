@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/dad116fe96.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="calculator.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="big-div mt-5">
+        <input id="calscreen" class="cont" type="text">
+        <div class="div-flex">
+            <div>MC</div>
+            <div>MR</div>
+            <div>M+</div>
+            <div>M-</div>
+            <div>MS</div>
+            <div>M^</div>
+        </div>
+        <div>
+            <button onclick="AddOperator('%')" id="operator">%</button>
+            <button onclick="clearMe()" id="operator">CE</button>
+            <button onclick="clr()" id="operator">C</button>
+            <button onclick="AddOff()" id="operatoroff" class="off">OFF</button>
+            <button onclick="AddNumb(1/x)" id="operator">1/x</button>
+            <button onclick="AddNumb(x)" id="operator">x</button>
+            <button onclick="AddNumb()" id="operator">!</button>
+            <button onclick="AddOperator('/')" id="operator">/</button>
+            <button onclick="AddNumb(7)" id="number">7</button>
+            <button onclick="AddNumb(8)" id="number">8</button>
+            <button onclick="AddNumb(9)" id="number">9</button>
+            <button onclick="AddOperator('*')" id="operator">*</button>
+            <button onclick="AddNumb(4)" id="number">4</button>
+            <button onclick="AddNumb(5)" id="number">5</button>
+            <button onclick="AddNumb(6)" id="number">6</button>
+            <button onclick="AddOperator('-')" id="operator">-</button>
+            <button onclick="AddNumb(1)" id="number">1</button>
+            <button onclick="AddNumb(2)" id="number">2</button>
+            <button onclick="AddNumb(3)" id="number">3</button>
+            <button onclick="AddOperator('+')" id="operator">+</button>
+            <button onclick="AddNumb()" id="number">+/-</button>
+            <button onclick="AddNumb(0)" id="number">0</button>
+            <button onclick="AddNumb()" id="number">.</button>
+            <button onclick="Equals()" id="equ">=</button>
+        </div>
+    </div>
+</body>
+<script src="calculator.js"></script>
+</html>
